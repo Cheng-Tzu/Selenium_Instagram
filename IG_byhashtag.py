@@ -252,7 +252,7 @@ article_df = pd.merge(content_df,ht_sum_df, on='a_id')
 article_df = pd.merge(article_df,like_df, on='a_id')
 article_df['a_id'] = article_df['a_id'].astype(int)
 article_df = article_df[['a_id','u_id','content','url','sum_of_like','sum_of_hashtag','createddatetime']]
-article_df.to_excel('IG_main_df.xlsx')
+article_df.to_excel('IG_hashtag_df.xlsx')
 
 # 輸出照片dataframe
-pic_df.to_csv('IG_pic_url.csv')
+pic_df.to_csv('IG_hashtag_pic_df.csv')
