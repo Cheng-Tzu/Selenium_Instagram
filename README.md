@@ -21,4 +21,3 @@
 成品部分演示：https://www.youtube.com/watch?v=-IePsZsY6kA
 
 * 輸出excel截圖、海報、影片：https://drive.google.com/drive/u/0/folders/1wWnAT6I8ciGcNNSuSwn9UXwo0FYrZrDj
-*   
